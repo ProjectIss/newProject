@@ -1,0 +1,6 @@
+D:\JOHN\New folder (2)\issNew\issNewCommon\bin\Debug\issNewCommon.dll
+D:\JOHN\New folder (2)\issNew\issNewCommon\bin\Debug\issNewCommon.pdb
+D:\JOHN\New folder (2)\issNew\issNewCommon\obj\Debug\issNewCommon.csproj.AssemblyReference.cache
+D:\JOHN\New folder (2)\issNew\issNewCommon\obj\Debug\issNewCommon.csproj.CoreCompileInputs.cache
+D:\JOHN\New folder (2)\issNew\issNewCommon\obj\Debug\issNewCommon.dll
+D:\JOHN\New folder (2)\issNew\issNewCommon\obj\Debug\issNewCommon.pdb

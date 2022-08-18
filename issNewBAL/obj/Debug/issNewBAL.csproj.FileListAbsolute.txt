@@ -1,0 +1,11 @@
+D:\JOHN\New folder (2)\issNew\issNewBAL\bin\Debug\issNewBAL.dll
+D:\JOHN\New folder (2)\issNew\issNewBAL\bin\Debug\issNewBAL.pdb
+D:\JOHN\New folder (2)\issNew\issNewBAL\bin\Debug\issNewCommon.dll
+D:\JOHN\New folder (2)\issNew\issNewBAL\bin\Debug\issNewDAL.dll
+D:\JOHN\New folder (2)\issNew\issNewBAL\bin\Debug\issNewCommon.pdb
+D:\JOHN\New folder (2)\issNew\issNewBAL\bin\Debug\issNewDAL.pdb
+D:\JOHN\New folder (2)\issNew\issNewBAL\obj\Debug\issNewBAL.csproj.AssemblyReference.cache
+D:\JOHN\New folder (2)\issNew\issNewBAL\obj\Debug\issNewBAL.csproj.CoreCompileInputs.cache
+D:\JOHN\New folder (2)\issNew\issNewBAL\obj\Debug\issNewBAL.csproj.CopyComplete
+D:\JOHN\New folder (2)\issNew\issNewBAL\obj\Debug\issNewBAL.dll
+D:\JOHN\New folder (2)\issNew\issNewBAL\obj\Debug\issNewBAL.pdb
