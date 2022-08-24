@@ -9,3 +9,14 @@ D:\JOHN\New folder (2)\issNew\issNewBAL\obj\Debug\issNewBAL.csproj.CoreCompileIn
 D:\JOHN\New folder (2)\issNew\issNewBAL\obj\Debug\issNewBAL.csproj.CopyComplete
 D:\JOHN\New folder (2)\issNew\issNewBAL\obj\Debug\issNewBAL.dll
 D:\JOHN\New folder (2)\issNew\issNewBAL\obj\Debug\issNewBAL.pdb
+D:\wsp\newProject\issNewBAL\bin\Debug\issNewBAL.dll
+D:\wsp\newProject\issNewBAL\bin\Debug\issNewBAL.pdb
+D:\wsp\newProject\issNewBAL\bin\Debug\issNewCommon.dll
+D:\wsp\newProject\issNewBAL\bin\Debug\issNewDAL.dll
+D:\wsp\newProject\issNewBAL\bin\Debug\issNewCommon.pdb
+D:\wsp\newProject\issNewBAL\bin\Debug\issNewDAL.pdb
+D:\wsp\newProject\issNewBAL\obj\Debug\issNewBAL.csprojAssemblyReference.cache
+D:\wsp\newProject\issNewBAL\obj\Debug\issNewBAL.csproj.CoreCompileInputs.cache
+D:\wsp\newProject\issNewBAL\obj\Debug\issNewBAL.csproj.CopyComplete
+D:\wsp\newProject\issNewBAL\obj\Debug\issNewBAL.dll
+D:\wsp\newProject\issNewBAL\obj\Debug\issNewBAL.pdb
