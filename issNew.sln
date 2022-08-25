@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1340
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "issNew", "issNew\issNew.vbproj", "{D94053FE-505A-4322-A959-B67FD99DC7AC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "issNewBAL", "issNewBAL\issNewBAL.csproj", "{8B2CFB37-A949-4A83-9B4F-93BC917A6343}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "issNewDAL", "issNewDAL\issNewDAL.csproj", "{76922F12-019E-4992-9252-C86ED66F6C06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "issNewCommon", "issNewCommon\issNewCommon.csproj", "{6A15F992-1577-4EA3-AC6A-F36687B77DC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewProjectWeb", "NewProjectWeb\NewProjectWeb.csproj", "{8D0EB754-5D6F-48C9-9490-8191D469A2F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D94053FE-505A-4322-A959-B67FD99DC7AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D94053FE-505A-4322-A959-B67FD99DC7AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D94053FE-505A-4322-A959-B67FD99DC7AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D94053FE-505A-4322-A959-B67FD99DC7AC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8B2CFB37-A949-4A83-9B4F-93BC917A6343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8B2CFB37-A949-4A83-9B4F-93BC917A6343}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B2CFB37-A949-4A83-9B4F-93BC917A6343}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{6A15F992-1577-4EA3-AC6A-F36687B77DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A15F992-1577-4EA3-AC6A-F36687B77DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A15F992-1577-4EA3-AC6A-F36687B77DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0EB754-5D6F-48C9-9490-8191D469A2F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0EB754-5D6F-48C9-9490-8191D469A2F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0EB754-5D6F-48C9-9490-8191D469A2F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0EB754-5D6F-48C9-9490-8191D469A2F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
