@@ -6,15 +6,14 @@ using System.Web.Mvc;
 
 namespace NewProjectWeb.Controllers
 {
-    public class SchemeController : Controller
+    public class InvesterController : Controller
     {
-        // GET: Scheme
+        // GET: Invester
         public ActionResult Index()
         {
-            
             return View();
         }
-        public ActionResult Create()
+        public ActionResult create()
         {
             return View();
         }
