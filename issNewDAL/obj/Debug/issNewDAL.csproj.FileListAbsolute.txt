@@ -7,3 +7,13 @@ D:\JOHN\New folder (2)\issNew\issNewDAL\obj\Debug\issNewDAL.csproj.CoreCompileIn
 D:\JOHN\New folder (2)\issNew\issNewDAL\obj\Debug\issNewDAL.csproj.CopyComplete
 D:\JOHN\New folder (2)\issNew\issNewDAL\obj\Debug\issNewDAL.dll
 D:\JOHN\New folder (2)\issNew\issNewDAL\obj\Debug\issNewDAL.pdb
+D:\wsp\newProject\issNewDAL\bin\Debug\issNewDAL.dll
+D:\wsp\newProject\issNewDAL\bin\Debug\issNewDAL.pdb
+D:\wsp\newProject\issNewDAL\bin\Debug\issNewCommon.dll
+D:\wsp\newProject\issNewDAL\bin\Debug\issNewCommon.pdb
+D:\wsp\newProject\issNewDAL\obj\Debug\issNewDAL.csprojAssemblyReference.cache
+D:\wsp\newProject\issNewDAL\obj\Debug\issNewDAL.csproj.CoreCompileInputs.cache
+D:\wsp\newProject\issNewDAL\obj\Debug\issNewDAL.csproj.CopyComplete
+D:\wsp\newProject\issNewDAL\obj\Debug\issNewDAL.dll
+D:\wsp\newProject\issNewDAL\obj\Debug\issNewDAL.pdb
+D:\wsp\newProject\issNewDAL\bin\Debug\issNewDAL.dll.config
