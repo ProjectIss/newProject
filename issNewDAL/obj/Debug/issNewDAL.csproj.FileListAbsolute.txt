@@ -16,3 +16,4 @@ D:\wsp\newProject\issNewDAL\obj\Debug\issNewDAL.csproj.CoreCompileInputs.cache
 D:\wsp\newProject\issNewDAL\obj\Debug\issNewDAL.csproj.CopyComplete
 D:\wsp\newProject\issNewDAL\obj\Debug\issNewDAL.dll
 D:\wsp\newProject\issNewDAL\obj\Debug\issNewDAL.pdb
+D:\wsp\newProject\issNewDAL\bin\Debug\issNewDAL.dll.config

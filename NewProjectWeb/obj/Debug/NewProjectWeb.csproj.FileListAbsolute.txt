@@ -74,3 +74,10 @@ D:\wsp\newProject\NewProjectWeb\obj\Debug\NewProjectWeb.csproj.CoreCompileInputs
 D:\wsp\newProject\NewProjectWeb\obj\Debug\NewProjectWeb.csproj.CopyComplete
 D:\wsp\newProject\NewProjectWeb\obj\Debug\NewProjectWeb.dll
 D:\wsp\newProject\NewProjectWeb\obj\Debug\NewProjectWeb.pdb
+D:\wsp\newProject\NewProjectWeb\bin\issNewBAL.dll
+D:\wsp\newProject\NewProjectWeb\bin\issNewCommon.dll
+D:\wsp\newProject\NewProjectWeb\bin\issNewDAL.dll
+D:\wsp\newProject\NewProjectWeb\bin\issNewBAL.pdb
+D:\wsp\newProject\NewProjectWeb\bin\issNewCommon.pdb
+D:\wsp\newProject\NewProjectWeb\bin\issNewDAL.pdb
+D:\wsp\newProject\NewProjectWeb\bin\issNewDAL.dll.config

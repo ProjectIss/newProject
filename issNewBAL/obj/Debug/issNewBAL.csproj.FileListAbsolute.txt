@@ -20,3 +20,4 @@ D:\wsp\newProject\issNewBAL\obj\Debug\issNewBAL.csproj.CoreCompileInputs.cache
 D:\wsp\newProject\issNewBAL\obj\Debug\issNewBAL.csproj.CopyComplete
 D:\wsp\newProject\issNewBAL\obj\Debug\issNewBAL.dll
 D:\wsp\newProject\issNewBAL\obj\Debug\issNewBAL.pdb
+D:\wsp\newProject\issNewBAL\bin\Debug\issNewDAL.dll.config

@@ -121,6 +121,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InvesterController.cs" />
+    <Compile Include="Controllers\InvestmentController.cs" />
+    <Compile Include="Controllers\PayoutController.cs" />
     <Compile Include="Controllers\SchemeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -3157,7 +3160,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -3174,6 +3179,15 @@
     <Content Include="Views\Scheme\Index.cshtml" />
     <Content Include="Views\Scheme\Create.cshtml" />
     <Content Include="Views\Scheme\Edit.cshtml" />
+    <Content Include="Views\Invester\Index.cshtml" />
+    <Content Include="Views\Invester\create.cshtml" />
+    <Content Include="Views\Invester\Edit.cshtml" />
+    <Content Include="Views\Investment\Index.cshtml" />
+    <Content Include="Views\Investment\Create.cshtml" />
+    <Content Include="Views\Investment\Edit.cshtml" />
+    <Content Include="Views\Payout\Index.cshtml" />
+    <Content Include="Views\Payout\Create.cshtml" />
+    <Content Include="Views\Payout\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -3191,6 +3205,16 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\issNewBAL\issNewBAL.csproj">
+      <Project>{8b2cfb37-a949-4a83-9b4f-93bc917a6343}</Project>
+      <Name>issNewBAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\issNewCommon\issNewCommon.csproj">
+      <Project>{6a15f992-1577-4ea3-ac6a-f36687b77dc4}</Project>
+      <Name>issNewCommon</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
