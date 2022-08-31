@@ -38,5 +38,18 @@ namespace NewProjectWeb.Controllers
             }
             return View();
         }
+    
+
+    [HttpPost]
+        public ActionResult Delete(int TopupID,int InvID)
+        {
+            int uID = 1;
+            int resp = objTopupBAL.Delete(TopupID, InvID,uID, "Delete");
+            if (resp==1)
+            {
+               return RedirectToAction("Index");
+            }
+            return View();
+        }
     }
 }

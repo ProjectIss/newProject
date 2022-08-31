@@ -62,5 +62,30 @@ namespace issNewDAL
 
             return ds;
         }
+
+        public int Delete(int TopupID,int InvID, int UID,  string Status)
+        {
+            try
+            {
+                SqlConnection sqlConnection = objHandler.OpenConnection();
+                SqlCommand sql_cmnd = new SqlCommand(SPInsertTopup, sqlConnection);
+                sql_cmnd.CommandType = CommandType.StoredProcedure;
+                sql_cmnd.Parameters.AddWithValue("@TopupID", SqlDbType.Int).Value = TopupID;
+                sql_cmnd.Parameters.AddWithValue("@TDate", SqlDbType.DateTime).Value = DateTime.Now;
+                sql_cmnd.Parameters.AddWithValue("@InvID", SqlDbType.Int).Value = InvID;
+                sql_cmnd.Parameters.AddWithValue("@UID", SqlDbType.Int).Value = UID;
+                sql_cmnd.Parameters.AddWithValue("@TAmount", SqlDbType.Int).Value = 0;
+                sql_cmnd.Parameters.AddWithValue("@Status", SqlDbType.NVarChar).Value = Status;
+                sql_cmnd.ExecuteNonQuery();
+                sqlConnection.Close();
+
+            }
+            catch (Exception ex)
+            {
+                return 0;
+            }
+
+            return 1;
+        }
     }
 }

@@ -22,5 +22,10 @@ namespace issNewBAL
             int resp = objTopup.InsertMenthod(TopupID, TDate, InvID, UID, TAmount, Status);
             return resp;
         }
+        public int Delete(int TopupID, int InvID, int UID,  string Status)
+        {
+            int resp = objTopup.Delete(TopupID,  InvID, UID, Status);
+            return resp;
+        }
     }
 }

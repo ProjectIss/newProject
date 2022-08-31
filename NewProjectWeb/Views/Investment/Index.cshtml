@@ -1,7 +1,7 @@
 ﻿@using System.Data
 @model DataSet
 @{
-    
+
     ViewBag.Title = "Index";
 }
 
@@ -60,6 +60,7 @@
                                 <th scope="col" class="sort" data-sort="name">Select Investment ID</th>
                                 <th scope="col" class="sort" data-sort="name">Invester Name</th>
                                 <th scope="col" class="sort" data-sort="name">Topup Amount</th>
+                                <th scope="col" class="sort" data-sort="name">Actions</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -72,6 +73,7 @@
                                     <td>@row["InvId"]</td>
                                     <td>@row["InvName"]</td>
                                     <td>@row["TAmount"]</td>
+                                    <td><button title="Delete" onclick="itemdelete(@row["TopupId"],@row["InvId"])" class="btn btn-primary">Delete</button></td>
                                 </tr>
                             }
 
@@ -107,4 +109,25 @@
         </div>
     </div>
 </div>
+<script src="~/assets/vendor/jquery/dist/jquery.min.js"></script>
+<script>
+    $(function () {
 
+       
+
+    });
+    function itemdelete(id,vid) {
+        debugger
+        if (confirm('Are you sure want to delete this item?')) {
+            $.ajax({
+                url: "/Investment/Delete",
+                type: "post",
+                data: { TopupID: id, InvID: vid },
+                success: function (d) {
+                    window.location.reload();
+                }
+            });
+        
+        } 
+    }
+</script>
